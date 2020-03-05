@@ -1,6 +1,6 @@
 # Golang docker - NetworkingConfig #
 
-## A demonstartion of using golang to create a docker container with a specific (existingt) docker network) ##
+## A demonstration of using golang to create a docker container with a specific (existing) docker network ##
 
 This is useful as it allows you to create a number of container that can easily connect to each other.
 
