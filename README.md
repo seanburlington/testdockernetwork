@@ -1,6 +1,19 @@
-= An example of creating a docker container using Golang - attached to a network =
+# Golang docker - NetworkingConfig #
 
-This wasn't obvious to me so I wrote a small test program
+## A demonstartion of using golang to create a docker container with a specific (existingt) docker network) ##
+
+This is useful as it allows you to create a number of container that can easily connect to each other.
+
+Docker compose does something like this by default 
+
+https://docs.docker.com/compose/networking/
+
+    By default Compose sets up a single network for your app. Each container for a service joins the default network and is both reachable by other containers on that network, and discoverable by them at a hostname identical to the container name.
+
+But if you create the containers yourself and want the same benefits - you have to specify it.
+
+
+It wasn't obvious to me  how to do it so I wrote a small test program
 
 
 
